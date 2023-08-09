@@ -1,0 +1,27 @@
+
+.g-section.data-v-04dc2e10 {
+
+	width: 100%;
+	box-sizing: border-box;
+}
+.g-section__title.data-v-04dc2e10 {
+	position: relative;
+
+	display: flex;
+	word-break: break-all;
+	flex-shrink: 0;
+
+	flex-direction: row;
+	align-items: center;
+}
+.g-section__decorate.data-v-04dc2e10 {
+	position: absolute;
+}
+.g-section__sub.data-v-04dc2e10 {
+
+	word-break: break-all;
+}
+.g-section__descr.data-v-04dc2e10 {
+	font-weight: 400;
+}
+

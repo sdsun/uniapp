@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Search Bar",
+  "usingComponents": {
+    "g-search-bar": "/uni_modules/gtm-mobile-ui/components/g-search-bar/g-search-bar"
+  }
+}

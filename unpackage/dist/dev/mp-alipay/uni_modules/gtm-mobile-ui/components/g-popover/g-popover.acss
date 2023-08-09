@@ -1,0 +1,38 @@
+
+.g-popup-list.data-v-1a5f3878 {
+	z-index: 1;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+.g-flex-end.data-v-1a5f3878 {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.g-triangle.data-v-1a5f3878 {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	z-index: 997;
+}
+.g-popup-mask.data-v-1a5f3878 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 995;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+.g-popup-show.data-v-1a5f3878 {
+	opacity: 1;
+	visibility: visible;
+}
+.g-z_index.data-v-1a5f3878 {
+	z-index: 996;
+}
+

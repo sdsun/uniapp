@@ -1,0 +1,177 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"g-(.*)": "@/uni_modules/gtm-mobile-ui/components/g-$1/g-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "GTM Mobile UI"
+			}
+		},
+		{
+			"path": "pages/business/business",
+			"style": {
+				"navigationBarTitleText": "GTM Mobile UI",
+				"navigationStyle": "custom",
+				"mp-alipay": {
+					"transparentTitle": "always",
+					"titlePenetrate": "YES",
+					"allowsBounceVertical": "NO"
+				}
+			}
+		},
+		{
+			"path": "pages/base/icon",
+			"style": {
+				"navigationBarTitleText": "Icon"
+			}
+		},
+		{
+			"path": "pages/base/button",
+			"style": {
+				"navigationBarTitleText": "Button"
+			}
+		},
+		{
+			"path": "pages/base/empty",
+			"style": {
+				"navigationBarTitleText": "Empty"
+			}
+		},
+		{
+			"path": "pages/base/calendar",
+			"style": {
+				"navigationBarTitleText": "Calendar"
+			}
+		},
+		{
+			"path": "pages/base/steps",
+			"style": {
+				"navigationBarTitleText": "Steps"
+			}
+		},
+		{
+			"path": "pages/base/tabs",
+			"style": {
+				"navigationBarTitleText": "Tabs"
+			}
+		},
+		{
+			"path": "pages/base/search-bar",
+			"style": {
+				"navigationBarTitleText": "Search Bar"
+			}
+		},
+		{
+			"path": "pages/base/cell",
+			"style": {
+				"navigationBarTitleText": "Cell"
+			}
+		},
+		{
+			"path": "pages/base/divider",
+			"style": {
+				"navigationBarTitleText": "Divider"
+			}
+		},
+		{
+			"path": "pages/base/go-top",
+			"style": {
+				"navigationBarTitleText": "Go Top"
+			}
+		},
+		{
+			"path": "pages/base/popup",
+			"style": {
+				"navigationBarTitleText": "Popup"
+			}
+		},
+		{
+			"path": "pages/base/modal",
+			"style": {
+				"navigationBarTitleText": "Modal"
+			}
+		},
+		{
+			"path": "pages/base/action-sheet",
+			"style": {
+				"navigationBarTitleText": "Action Sheet"
+			}
+		},
+		{
+			"path": "pages/base/loading",
+			"style": {
+				"navigationBarTitleText": "Loading"
+			}
+		},
+		{
+			"path": "pages/base/avatar",
+			"style": {
+				"navigationBarTitleText": "Avatar"
+			}
+		},
+		{
+			"path": "pages/base/result",
+			"style": {
+				"navigationBarTitleText": "Result"
+			}
+		},
+		{
+			"path": "pages/base/container",
+			"style": {
+				"navigationBarTitleText": "Container"
+			}
+		},
+		{
+			"path": "pages/base/filter-bar",
+			"style": {
+				"navigationBarTitleText": "Filter Bar"
+			}
+		},
+		{
+			"path": "pages/base/popover",
+			"style": {
+				"navigationBarTitleText": "Popover"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/sub",
+			"pages": [
+				{
+					"path": "about/about",
+					"style": {
+						"navigationBarTitleText": "About"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#3471ff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "内置组件"
+			},
+			{
+				"pagePath": "pages/business/business",
+				"text": "接口"
+			}
+		]
+	}
+}

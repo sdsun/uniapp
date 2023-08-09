@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" class="{{(((('data-v-63ffe8d8')+' '+'g-icon')+' '+'iconfont')+' '+('icon-'+name))}}" style="{{'color:'+(color)+';'+('font-size:'+(size+'rpx')+';')+('font-weight:'+(fontWeight)+';')}}" onTap="__e"></text>

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Button",
+  "usingComponents": {
+    "g-button": "/uni_modules/gtm-mobile-ui/components/g-button/g-button"
+  }
+}

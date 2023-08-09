@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Result",
+  "usingComponents": {
+    "g-result": "/uni_modules/gtm-mobile-ui/components/g-result/g-result"
+  }
+}

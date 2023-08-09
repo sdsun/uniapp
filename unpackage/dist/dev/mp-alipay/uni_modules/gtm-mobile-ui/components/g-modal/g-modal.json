@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-popup": "/uni_modules/gtm-mobile-ui/components/g-popup/g-popup"
+  }
+}

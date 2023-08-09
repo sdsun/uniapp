@@ -1,0 +1,1 @@
+<view class="{{(((('g-divider')+' '+'data-v-3dbc6c60')+' '+('g-divider--'+position))+' '+((!$slots.default&&!$slots.$default)?'g-divider--notext':''))}}" style="{{(style)}}"><block a:if="{{$slots.default||$slots.$default}}"><view class="g-divider__text data-v-3dbc6c60"><slot></slot></view></block></view>

@@ -1,0 +1,1 @@
+<view class="{{((('g-steps')+' '+'data-v-66ca7208')+' '+('g-steps--'+direction))}}"><slot></slot></view>

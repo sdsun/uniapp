@@ -1,0 +1,1 @@
+<view class="page-result data-v-bfa1009c"><g-result vue-id="{{'65b6f76a-1-'+__i0__}}" type="{{item.type}}" title="{{item.type}}" desc="{{item.desc}}" class="data-v-bfa1009c" a:for="{{list}}" a:for-item="item" a:for-index="__i0__" a:key="type" onVueInit="__l"></g-result></view>

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Divider",
+  "usingComponents": {
+    "g-divider": "/uni_modules/gtm-mobile-ui/components/g-divider/g-divider"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="page-button"><view><view style="margin-bottom:10px;"><g-button vue-id="1cdbbd75-1" type="primary" text="Primary Btn" onVueInit="__l"></g-button></view><g-button style="margin-bottom:16rpx;" vue-id="1cdbbd75-2" text="Gradient Btn" color="linear-gradient(to right, rgb(66, 83, 216), rgb(213, 51, 186))" onVueInit="__l"></g-button></view></view>

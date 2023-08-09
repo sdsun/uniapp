@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Modal",
+  "usingComponents": {
+    "g-button": "/uni_modules/gtm-mobile-ui/components/g-button/g-button",
+    "g-modal": "/uni_modules/gtm-mobile-ui/components/g-modal/g-modal"
+  }
+}

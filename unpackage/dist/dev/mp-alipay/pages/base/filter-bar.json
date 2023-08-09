@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Filter Bar",
+  "usingComponents": {
+    "g-filter-bar": "/uni_modules/gtm-mobile-ui/components/g-filter-bar/g-filter-bar",
+    "g-popup": "/uni_modules/gtm-mobile-ui/components/g-popup/g-popup"
+  }
+}

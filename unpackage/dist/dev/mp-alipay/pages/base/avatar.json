@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Avatar",
+  "usingComponents": {
+    "g-section": "/uni_modules/gtm-mobile-ui/components/g-section/g-section",
+    "g-avatar": "/uni_modules/gtm-mobile-ui/components/g-avatar/g-avatar"
+  }
+}

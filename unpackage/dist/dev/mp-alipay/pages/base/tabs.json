@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Tabs",
+  "usingComponents": {
+    "g-tabs": "/uni_modules/gtm-mobile-ui/components/g-tabs/g-tabs",
+    "g-icon": "/uni_modules/gtm-mobile-ui/components/g-icon/g-icon"
+  }
+}

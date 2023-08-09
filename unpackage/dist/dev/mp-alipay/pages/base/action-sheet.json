@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Action Sheet",
+  "usingComponents": {
+    "g-button": "/uni_modules/gtm-mobile-ui/components/g-button/g-button",
+    "g-action-sheet": "/uni_modules/gtm-mobile-ui/components/g-action-sheet/g-action-sheet"
+  }
+}

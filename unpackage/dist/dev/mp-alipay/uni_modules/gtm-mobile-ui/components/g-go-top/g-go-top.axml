@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goTop',['$event']]]]]}}" hidden="{{!(visible)}}" class="g-go-top data-v-1a9d2238" style="{{'bottom:'+(bottom+'rpx')+';'+('right:'+(right+'rpx')+';')}}" catchTap="__e"><g-icon vue-id="38fda5a4-1" name="up" color="#FFF" size="{{42}}" class="data-v-1a9d2238" onVueInit="__l"></g-icon></view>

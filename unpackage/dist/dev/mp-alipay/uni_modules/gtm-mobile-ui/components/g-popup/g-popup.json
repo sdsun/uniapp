@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-transition": "/uni_modules/gtm-mobile-ui/components/g-transition/g-transition"
+  }
+}

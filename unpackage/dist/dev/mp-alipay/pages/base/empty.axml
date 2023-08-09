@@ -1,0 +1,1 @@
+<view class="page-empty"><view a:for="{{list}}" a:for-item="item" a:for-index="__i0__" a:key="*this"><g-empty vue-id="{{'ff0b80d8-1-'+__i0__}}" mode="{{item}}" onVueInit="__l"></g-empty></view></view>

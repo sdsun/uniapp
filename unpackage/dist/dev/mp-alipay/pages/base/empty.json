@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Empty",
+  "usingComponents": {
+    "g-empty": "/uni_modules/gtm-mobile-ui/components/g-empty/g-empty"
+  }
+}

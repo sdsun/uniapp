@@ -1,0 +1,80 @@
+// nvue下hover-class无效
+$g-button-before-top:50% !default;
+$g-button-before-left:50% !default;
+$g-button-before-width:100% !default;
+$g-button-before-height:100% !default;
+$g-button-before-transform:translate(-50%, -50%) !default;
+$g-button-before-opacity:0 !default;
+$g-button-before-background-color:#000 !default;
+$g-button-before-border-color:#000 !default;
+$g-button-active-before-opacity:.15 !default;
+$g-button-icon-margin-left:4px !default;
+$g-button-plain-g-button-info-color:$g-info;
+$g-button-plain-g-button-success-color:$g-success;
+$g-button-plain-g-button-error-color:$g-error;
+$g-button-plain-g-button-warning-color:$g-error;
+
+.g-button {
+	width: 100%;
+	
+	&__text {
+		white-space: nowrap;
+		line-height: 1;
+	}
+	
+	&:before {
+		position: absolute;
+		top:$g-button-before-top;
+		left:$g-button-before-left;
+		width:$g-button-before-width;
+		height:$g-button-before-height;
+		border: inherit;
+		border-radius: inherit;
+		transform:$g-button-before-transform;
+		opacity:$g-button-before-opacity;
+		content: " ";
+		background-color:$g-button-before-background-color;
+		border-color:$g-button-before-border-color;
+	}
+	
+	&--active {
+		&:before {
+			opacity: .15
+		}
+	}
+	
+	&__icon+&__text:not(:empty),
+	&__loading-text {
+		margin-left:$g-button-icon-margin-left;
+	}
+	
+	&--plain {
+		&.g-button--primary {
+			color: $g-primary;
+		}
+	}
+	
+	&--plain {
+		&.g-button--info {
+			color:$g-button-plain-g-button-info-color;
+		}
+	}
+	
+	&--plain {
+		&.g-button--success {
+			color:$g-button-plain-g-button-success-color;
+		}
+	}
+	
+	&--plain {
+		&.g-button--error {
+			color:$g-button-plain-g-button-error-color;
+		}
+	}
+	
+	&--plain {
+		&.g-button--warning {
+			color:$g-button-plain-g-button-warning-color;
+		}
+	}
+}

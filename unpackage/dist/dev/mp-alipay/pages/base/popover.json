@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Popover",
+  "usingComponents": {
+    "g-popover": "/uni_modules/gtm-mobile-ui/components/g-popover/g-popover"
+  }
+}

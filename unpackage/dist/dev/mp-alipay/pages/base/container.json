@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Container",
+  "usingComponents": {
+    "g-container": "/uni_modules/gtm-mobile-ui/components/g-container/g-container"
+  }
+}

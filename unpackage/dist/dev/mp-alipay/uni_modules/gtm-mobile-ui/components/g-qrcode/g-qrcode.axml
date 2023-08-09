@@ -1,0 +1,1 @@
+<view class="g-qrcode data-v-dd66d810"><canvas style="{{'width:'+(size+'px')+';'+('height:'+(size+'px')+';')}}" id="{{cid}}" canvas-id="{{cid}}" data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" onTap="__e" class="data-v-dd66d810"></canvas></view>

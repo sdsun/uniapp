@@ -1,0 +1,1 @@
+<view class="{{(((('g-avatar')+' '+'data-v-3af4b858')+' '+('g-avatar--'+shape))+' '+('g-avatar--'+size))}}"><image class="{{(((('g-avatar__image')+' '+'data-v-3af4b858')+' '+('g-avatar--'+shape))+' '+('g-avatar--'+size))}}" src="{{url||defaultAvatar}}" mode="{{mode}}"></image></view>

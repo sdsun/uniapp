@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/business/business",
+    "pages/base/icon",
+    "pages/base/button",
+    "pages/base/empty",
+    "pages/base/calendar",
+    "pages/base/steps",
+    "pages/base/tabs",
+    "pages/base/search-bar",
+    "pages/base/cell",
+    "pages/base/divider",
+    "pages/base/go-top",
+    "pages/base/popup",
+    "pages/base/modal",
+    "pages/base/action-sheet",
+    "pages/base/loading",
+    "pages/base/avatar",
+    "pages/base/result",
+    "pages/base/container",
+    "pages/base/filter-bar",
+    "pages/base/popover"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/sub",
+      "pages": [
+        "about/about"
+      ]
+    }
+  ],
+  "window": {
+    "titleBarColor": "#3471ff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "内置组件"
+      },
+      {
+        "pagePath": "pages/business/business",
+        "name": "接口"
+      }
+    ]
+  },
+  "usingComponents": {
+    "plugin-wrapper": "/plugin-wrapper"
+  }
+}

@@ -1,0 +1,1 @@
+<switch style="{{'transform:'+('scale('+scaleRatio+')')+';'}}" checked="{{value}}" disabled="{{disabled}}" color="{{color}}" data-event-opts="{{[['change',[['change',['$event']]]]]}}" onChange="__e"></switch>

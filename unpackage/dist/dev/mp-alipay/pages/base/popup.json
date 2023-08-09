@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Popup",
+  "usingComponents": {
+    "g-button": "/uni_modules/gtm-mobile-ui/components/g-button/g-button",
+    "g-popup": "/uni_modules/gtm-mobile-ui/components/g-popup/g-popup"
+  }
+}

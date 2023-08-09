@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Calendar",
+  "usingComponents": {
+    "g-calendar-todo": "/uni_modules/gtm-mobile-ui/components/g-calendar-todo/g-calendar-todo"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Go Top",
+  "usingComponents": {
+    "g-go-top": "/uni_modules/gtm-mobile-ui/components/g-go-top/g-go-top"
+  }
+}

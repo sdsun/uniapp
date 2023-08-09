@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Loading",
+  "usingComponents": {
+    "g-loading": "/uni_modules/gtm-mobile-ui/components/g-loading/g-loading"
+  }
+}

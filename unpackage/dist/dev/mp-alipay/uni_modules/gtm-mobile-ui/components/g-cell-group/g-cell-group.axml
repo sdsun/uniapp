@@ -1,0 +1,1 @@
+<view class="g-cell-group data-v-fe87e190"><block a:if="{{title}}"><view class="g-cell-group__title data-v-fe87e190"><block a:if="{{$slots.title}}"><slot name="title"></slot></block><block a:else><text class="g-cell-group__title__text data-v-fe87e190">{{title}}</text></block></view></block><view class="g-cell-group__wrapper data-v-fe87e190"><slot></slot></view></view>

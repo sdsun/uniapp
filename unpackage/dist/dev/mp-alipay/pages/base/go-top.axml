@@ -1,0 +1,1 @@
+<view class="container"><view a:for="{{100}}" a:for-item="item" a:for-index="__i0__" a:key="*this">{{item}}</view><g-go-top vue-id="30097c77-1" scrollTop="{{scrollTop}}" onVueInit="__l"></g-go-top></view>

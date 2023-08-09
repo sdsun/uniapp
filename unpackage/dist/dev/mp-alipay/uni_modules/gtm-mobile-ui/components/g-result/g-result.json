@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-icon": "/uni_modules/gtm-mobile-ui/components/g-icon/g-icon"
+  }
+}

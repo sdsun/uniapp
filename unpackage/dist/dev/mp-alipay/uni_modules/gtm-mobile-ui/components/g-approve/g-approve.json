@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-steps": "/uni_modules/gtm-mobile-ui/components/g-steps/g-steps",
+    "g-steps-item": "/uni_modules/gtm-mobile-ui/components/g-steps-item/g-steps-item",
+    "g-button": "/uni_modules/gtm-mobile-ui/components/g-button/g-button"
+  }
+}

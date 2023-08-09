@@ -1,0 +1,41 @@
+// 主题变量
+$g-main-color: #303133;
+$g-content-color: #606266;
+$g-tips-color: #909193;
+$g-light-color: #c0c4cc;
+$g-border-color: #dadbde;
+$g-bg-color: #f3f4f6;
+$g-disabled-color: #c8c9cc;
+
+$g-primary: #3471ff;
+$g-primary-dark: #2d67ee;
+$g-primary-disabled: #9acafc;
+$g-primary-light: #ecf5ff;
+
+$g-warning: #f9ae3d;
+$g-warning-dark: #f1a532;
+$g-warning-disabled: #f9d39b;
+$g-warning-light: #fdf6ec;
+
+$g-success: #5ac725;
+$g-success-dark: #53c21d;
+$g-success-disabled: #a9e08f;
+$g-success-light: #f5fff0;
+
+$g-error: #f56c6c;
+$g-error-dark: #e45656;
+$g-error-disabled: #f7b2b2;
+$g-error-light: #fef0f0;
+
+$g-info: #909399;
+$g-info-dark: #767a82;
+$g-info-disabled: #c4c6c9;
+$g-info-light: #f4f4f5;
+
+// scss混入，为了少写几行#ifndef
+@mixin flex($direction: row) {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: $direction;
+}

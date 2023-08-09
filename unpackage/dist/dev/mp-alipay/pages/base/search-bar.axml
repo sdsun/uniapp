@@ -1,0 +1,1 @@
+<view class="page-search-bar"><view style="background:#EEE;"><g-search-bar vue-id="1f877e39-1" radius="{{32}}" placeholder="please input" onVueInit="__l"></g-search-bar></view></view>

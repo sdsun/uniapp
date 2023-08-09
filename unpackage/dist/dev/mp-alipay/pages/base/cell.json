@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Cell",
+  "usingComponents": {
+    "g-cell-group": "/uni_modules/gtm-mobile-ui/components/g-cell-group/g-cell-group",
+    "g-cell": "/uni_modules/gtm-mobile-ui/components/g-cell/g-cell"
+  }
+}

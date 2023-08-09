@@ -1,0 +1,46 @@
+$g-button-active-opacity:0.75 !default;
+$g-button-loading-text-margin-left:4px !default;
+$g-button-text-color: #FFFFFF !default;
+$g-button-text-plain-error-color:$g-error !default;
+$g-button-text-plain-warning-color:$g-warning !default;
+$g-button-text-plain-success-color:$g-success !default;
+$g-button-text-plain-info-color:$g-info !default;
+$g-button-text-plain-primary-color:$g-primary !default;
+.g-button {
+	&--active {
+		opacity: $g-button-active-opacity;
+	}
+	
+	&--active--plain {
+		background-color: rgb(217, 217, 217);
+	}
+	
+	&__loading-text {
+		margin-left:$g-button-loading-text-margin-left;
+	}
+	
+	&__text,
+	&__loading-text {
+		color:$g-button-text-color;
+	}
+	
+	&__text--plain--error {
+		color:$g-button-text-plain-error-color;
+	}
+	
+	&__text--plain--warning {
+		color:$g-button-text-plain-warning-color;
+	}
+	
+	&__text--plain--success{
+		color:$g-button-text-plain-success-color;
+	}
+	
+	&__text--plain--info {
+		color:$g-button-text-plain-info-color;
+	}
+	
+	&__text--plain--primary {
+		color:$g-button-text-plain-primary-color;
+	}
+}
